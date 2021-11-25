@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Header from '../components/header'
+import Nav from '../components/Nav'
 
 
 
@@ -13,6 +14,7 @@ export default function Home() {
       </Head>
 
     <Header/>
+    <Nav />
     </div>
   )
 }

@@ -2,6 +2,7 @@ import { useRouter } from "next/dist/client/router"
 import requests from "../utils/requests"
 function Nav() {
     const router = useRouter()
+    console.log('requests', requests)
     return (
        
        <nav className="relative">

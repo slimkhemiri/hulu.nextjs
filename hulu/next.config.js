@@ -6,7 +6,3 @@ module.exports = {
     domains: ["links.papareact.com", "image.tmdb.org"],
   },
 };
-
-export const images = {
-  domains: ["links.papareact.com", "image.tmdb.org"],
-};
